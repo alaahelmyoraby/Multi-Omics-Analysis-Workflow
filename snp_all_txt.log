@@ -1,0 +1,25 @@
+PLINK v1.9.0-b.7.7 64-bit (22 Oct 2024)
+Options in effect:
+  --bfile snp_all
+  --out snp_all_txt
+  --recode
+
+Hostname: Alaa-Helmy-Oraby
+Working directory: /mnt/c/My pc/Egcombio/IOSB/plink
+Start time: Wed Feb  5 12:14:29 2025
+
+Random number seed: 1738750469
+7699 MB RAM detected; reserving 3849 MB for main workspace.
+2379 variants loaded from .bim file.
+156 people (49 males, 107 females) loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 156 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Warning: 34 het. haploid genotypes present (see snp_all_txt.hh ); many commands
+treat these as missing.
+Total genotyping rate is 0.998963.
+2379 variants and 156 people pass filters and QC.
+Note: No phenotypes present.
+--recode ped to snp_all_txt.ped + snp_all_txt.map ... done.
+
+End time: Wed Feb  5 12:14:29 2025
