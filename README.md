@@ -138,11 +138,12 @@ Extract significant SNPs based on Bonferroni correction:
 qatar_assoc <- read.table("assoc_file.qassoc", header = TRUE)
 
 # Bonferroni correction threshold
-bonferroni_threshold <- 0.05 / 67735
+bonferroni_threshold <- 0.05 / 67735   # no=67735
 
 # Filter significant SNPs
 significant_snps_all <- qatar_assoc[qatar_assoc$P < bonferroni_threshold, ]
 significant_snps_all <- significant_snps_all[order(significant_snps_all$P), ]
+  # significant_snps <- significant_snps[1:500,] if you want to reduce number of snps
 
 # Save significant SNPs
 write.table(significant_snps_all, "significant_snps_all.txt", row.names = FALSE)
